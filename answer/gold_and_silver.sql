@@ -1,0 +1,1 @@
+SELECT* FROM gold CROSS JOIN silver
