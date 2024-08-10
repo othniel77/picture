@@ -2,10 +2,10 @@ name: check_code_quality
 on: pull_request
 jobs:
     black:
-      runs_on: ubuntu 20.04
+      runs_on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.9
 
